@@ -76,7 +76,7 @@
 	sda-pin = <24>;
 	scl-pin = <32>;
 
-	fuel_gauge: max17048@36 , {
+	fuel_gauge: max17048@36 {
 		compatible = "maxim,max17048";
 		status = "okay";
 		label = "BATTERY";
