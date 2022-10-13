@@ -12,7 +12,7 @@
 
 / {
 	model = "altar, rev1";
-	compatible = "altar, rev1";
+	compatible = "altar,rev1";
 
 	chosen {
 		zephyr,code-partition = &code_partition;
