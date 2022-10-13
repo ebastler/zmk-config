@@ -7,7 +7,7 @@ manifest:
   projects:
     - name: zmk
       remote: ebastler
-      revision: testbranchs
+      revision: testbranch
       import: app/west.yml
   self:
     path: config
