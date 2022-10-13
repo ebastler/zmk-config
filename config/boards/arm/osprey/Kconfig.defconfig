@@ -28,7 +28,7 @@ config ZMK_USB
 config I2C
 	default y
 
-config max17048
+config MAX17048
 	default y
 
 endif # BOARD_OSPREY_A
