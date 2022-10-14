@@ -83,7 +83,7 @@
 
 		symbol_layer {
 			bindings = <
-	&trans			&kp LS(N1)		&kp LS(N2)		&kp LS(N3)		&kp LS(N4)		&kp LS(N5)			&kp LS(N6)		&kp LS(N7)		&kp LS(N8)		&kp LS(n9)		&kp LS(N0)		&trans
+	&trans			&kp LS(N1)		&kp LS(N2)		&kp LS(N3)		&kp LS(N4)		&kp LS(N5)			&kp LS(N6)		&kp LS(N7)		&kp LS(N8)		&kp LS(N9)		&kp LS(N0)		&trans
 	&trans			&trans			&trans			&trans			&trans			&trans				&kp MINUS		&kp EQUAL		&kp LBKT		&kp RBKT		&kp NON_US_HASH &kp GRAVE
 	&trans			&kp LS(NON_US_BSLH)	&trans		&trans			&trans			&trans				&kp LS(MINUS)	&kp LS(EQUAL)	&kp LS(LBKT)	&kp LS(RBKT)	&kp LS(NON_US_HASH) &kp LS(GRAVE)
 													&kp LWIN		&mo 3			&trans				&trans			&trans			&trans
