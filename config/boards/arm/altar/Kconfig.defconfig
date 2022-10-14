@@ -1,9 +1,7 @@
-# isometria75 rev2 board configuration
-
-# Copyright (c) 2020 The ZMK Contributors
+# Copyright (c) 2022 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if BOARD_ALTAR_REV1
+if BOARD_ALTAR
 
 config ZMK_KEYBOARD_NAME
 	default "Altar"
@@ -27,7 +25,4 @@ config ZMK_BLE
 config ZMK_USB
 	default y
 
-config ZMK_BATTERY_VOLTAGE_DIVIDER
-	default y
-
-endif # BOARD_ALTAR_REV1
+endif # BOARD_ALTAR
