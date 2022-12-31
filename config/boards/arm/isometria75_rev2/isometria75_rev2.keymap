@@ -1,3 +1,9 @@
+/*
+ * Copyright (c) 2022 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
@@ -54,7 +60,7 @@
 
 				sys_layer {
 // |BT_TOG |OUT_USB|OUT_BLE|       |       |       |       |       |       |       |       |       |       |       |       |
-// |       | BT_1  | BT_2  | BT_3  | BT_4  |       |       |       |       |       | BT_CLR|       |       |       | BOOT  |
+// |       | BT_0  | BT_1  | BT_2  | BT_3  | BT_4  |       |       |       |       | BT_CLR|       |       |       | BOOT  |
 // |       |       |       |       |       |       |       |       |       |       |       |       |       |       | RESET |
 // |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |
 // |       |       |       |       |       |       |       |       |       |       |       |       | LT 2  |       |       |
