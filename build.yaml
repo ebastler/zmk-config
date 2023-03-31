@@ -13,4 +13,5 @@
 #
 ---
 include:
-  - board: altar-i-iso
+  - board: altar-i-uk
+  - board: altar-i-us
