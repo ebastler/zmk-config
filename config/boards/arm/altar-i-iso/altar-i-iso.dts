@@ -20,8 +20,8 @@
 };
 
 / {
-	model = "altar,rev_a";
-	compatible = "altar,rev_a";
+	model = "Altar I,rev_a";
+	compatible = "Altar I,rev_a";
 
 	chosen {
 		zephyr,code-partition = &code_partition;

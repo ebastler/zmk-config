@@ -1,6 +1,6 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-config BOARD_ISOMETRIA75_REV2
-	bool "isometria75 Keyboard"
+config BOARD_ALTAR_I_UK
+	bool "Altar I"
 	depends on SOC_NRF52840_QIAA
