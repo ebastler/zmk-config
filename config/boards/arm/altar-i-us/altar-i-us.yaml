@@ -1,6 +1,6 @@
-identifier: Altar I
-name: Altar I
-type: mcu
+identifier: ALTAR_I_US
+name: ALTARIUS
+type: keyboard
 arch: arm
 toolchain:
   - zephyr
