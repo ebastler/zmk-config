@@ -10,7 +10,7 @@ manifest:
     - name: zmk
       remote: ebastler
 #      revision: max17048_PR_TEST 
-      revision: testbranch
+      revision: max17048_PR_OLD
       import: app/west.yml
   self:
     path: config
