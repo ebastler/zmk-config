@@ -9,8 +9,7 @@ manifest:
   projects:
     - name: zmk
       remote: ebastler
-#      revision: max17048_PR_TEST 
-      revision: max17048_PR_OLD
+      revision: max17048_custom
       import: app/west.yml
   self:
     path: config
