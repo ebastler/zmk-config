@@ -8,8 +8,8 @@ manifest:
       url-base: https://github.com/zhiayang
   projects:
     - name: zmk
-      remote: ebastler
-      revision: MAX17048_tempfix
+      remote: zhiayang
+      revision: sensor-driver-max17048
       import: app/west.yml
   self:
     path: config
