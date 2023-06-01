@@ -9,17 +9,6 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / {
-    led_indicators {
-        compatible = "gpio-leds";
-        label = "LED indicators";
-        led_capslock: led_capslock {
-            gpios = <&gpio0 19 GPIO_ACTIVE_HIGH>;
-            label = "Caps lock LED";
-        };
-    };
-};
-
-/ {
 	model = "Altar I US, Rev 1";
 	compatible = "altarius,rev1";
 
@@ -30,7 +19,6 @@
 		zmk,battery = &vbatt;
 		zmk,kscan = &kscan;
 		zmk,matrix_transform = &default_transform;
-    	zmk,led-capslock = &led_capslock;
 	};
 
 	default_transform: keymap_transform_0 {
