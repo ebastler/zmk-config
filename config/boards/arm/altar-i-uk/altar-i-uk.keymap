@@ -66,7 +66,7 @@
     &mo 1            &kp LCTRL        &kp LALT         &kp LGUI                                     &kp SPACE                                                           &kp  RGUI        &kp RALT         &kp LEFT         &kp DOWN         &kp RIGHT
 			>;
 			
-			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
 
 		fn_layer {
