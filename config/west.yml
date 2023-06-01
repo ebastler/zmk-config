@@ -6,8 +6,8 @@ manifest:
       url-base: https://github.com/ebastler
   projects:
     - name: zmk
-      remote: ebastler
-      revision: testbranch
+      remote: zmkfirmware
+      revision: main
       import: app/west.yml
   self:
     path: config
