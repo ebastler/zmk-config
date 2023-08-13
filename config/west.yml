@@ -4,12 +4,10 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: ebastler
       url-base: https://github.com/ebastler
-    - name: bortoz
-      url-base: https://github.com/bortoz
   projects:
     - name: zmk
-      remote: bortoz
-      revision: led-indicators
+      remote: ebastler
+      revision: Altar-I-led-indicators
       import: app/west.yml
   self:
     path: config
