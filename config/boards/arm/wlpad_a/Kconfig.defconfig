@@ -1,10 +1,10 @@
-# Copyright (c) 2022 The ZMK Contributors
+# Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if BOARD_ALTAR
+if BOARD_WLPAD_A
 
 config ZMK_KEYBOARD_NAME
-	default "Altar"
+	default "wlpad"
 
 if USB
 
@@ -25,4 +25,10 @@ config ZMK_BLE
 config ZMK_USB
 	default y
 
-endif # BOARD_ALTAR
+config I2C
+	default y
+
+config MAX17048
+	default y
+
+endif # BOARD_WLPAD_A
