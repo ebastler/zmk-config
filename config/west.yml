@@ -4,12 +4,10 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: ebastler
       url-base: https://github.com/ebastler
-    - name: zhiayang
-      url-base: https://github.com/zhiayang
   projects:
     - name: zmk
-      remote: zhiayang
-      revision: sensor-driver-max17048
+      remote: zmkfirmware
+      revision: main
       import: app/west.yml
   self:
     path: config
