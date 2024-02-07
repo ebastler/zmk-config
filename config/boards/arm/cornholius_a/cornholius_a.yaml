@@ -1,5 +1,5 @@
-identifier: osprey_a
-name: osprey_a
+identifier: cornholius_a
+name: cornholius_a
 type: mcu
 arch: arm
 toolchain:
