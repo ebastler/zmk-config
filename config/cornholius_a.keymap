@@ -14,7 +14,6 @@
 / {
     macros {
         lgleft: lgleft {
-            label = "lgleft";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -26,7 +25,6 @@
                 <&kp LWIN>;
         };
         lgright: lgright {
-            label = "lgright";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -38,7 +36,6 @@
                 <&kp LWIN>;
         };
         lgup: lgup {
-            label = "lgup";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -50,7 +47,6 @@
                 <&kp LWIN>;
         };
         lgdown: lgdown {
-            label = "lgdown";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =

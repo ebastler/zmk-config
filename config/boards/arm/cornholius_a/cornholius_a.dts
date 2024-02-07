@@ -37,7 +37,6 @@
  
 	kscan0: kscan {
 		compatible = "zmk,kscan-gpio-matrix";
-		label = "KSCAN";
 		diode-direction = "col2row";
 		row-gpios
 			= <&gpio0 26 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
@@ -72,10 +71,6 @@
 
 &usbd {
     status = "okay";
-/*     cdc_acm_uart: cdc_acm_uart {
-        compatible = "zephyr,cdc-acm-uart";
-        label = "CDC_ACM_0";
-    }; */
 };
 
 &pinctrl {
@@ -105,7 +100,6 @@
 
 	fuelgauge: max17048@36 {
 		compatible = "maxim,max17048";
-		label = "BATTERY";
 		reg = <0x36>;
 	};
 };
