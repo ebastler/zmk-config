@@ -99,7 +99,7 @@
 	clock-frequency = <100000>;
 
 	fuelgauge: max17048@36 {
-		compatible = "maxim,max17048";
+		compatible = "zmk,maxim-max17048";
 		reg = <0x36>;
 	};
 };
