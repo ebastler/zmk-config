@@ -7,6 +7,7 @@
 /dts-v1/;
 #include <nordic/nrf52840_qiaa.dtsi>
 #include <dt-bindings/zmk/matrix_transform.h>
+#include <physical_layouts.dtsi
 
 / {
 	model = "cornholius, rev_a";
@@ -59,7 +60,66 @@
 			, <&gpio0 30 GPIO_ACTIVE_HIGH>
 			;
 	};
+
+    layout_0: layout_0 {
+        compatible = "zmk,physical-layout";
+        display-name = "Default";
+
+        transform = <&default_transform>;
+
+        keys  //                     w   h    x    y     rot    rx    ry
+            = <&key_physical_attrs 100 100    0   37       0     0     0>
+            , <&key_physical_attrs 100 100  100   37       0     0     0>
+            , <&key_physical_attrs 100 100  200   12       0     0     0>
+            , <&key_physical_attrs 100 100  300    0       0     0     0>
+            , <&key_physical_attrs 100 100  400   12       0     0     0>
+            , <&key_physical_attrs 100 100  500   25       0     0     0>
+            , <&key_physical_attrs 100 100  900   25       0     0     0>
+            , <&key_physical_attrs 100 100 1000   12       0     0     0>
+            , <&key_physical_attrs 100 100 1100    0       0     0     0>
+            , <&key_physical_attrs 100 100 1200   12       0     0     0>
+            , <&key_physical_attrs 100 100 1300   37       0     0     0>
+            , <&key_physical_attrs 100 100 1400   37       0     0     0>
+            , <&key_physical_attrs 100 100    0  137       0     0     0>
+            , <&key_physical_attrs 100 100  100  137       0     0     0>
+            , <&key_physical_attrs 100 100  200  112       0     0     0>
+            , <&key_physical_attrs 100 100  300  100       0     0     0>
+            , <&key_physical_attrs 100 100  400  112       0     0     0>
+            , <&key_physical_attrs 100 100  500  125       0     0     0>
+            , <&key_physical_attrs 100 100  900  125       0     0     0>
+            , <&key_physical_attrs 100 100 1000  112       0     0     0>
+            , <&key_physical_attrs 100 100 1100  100       0     0     0>
+            , <&key_physical_attrs 100 100 1200  112       0     0     0>
+            , <&key_physical_attrs 100 100 1300  137       0     0     0>
+            , <&key_physical_attrs 100 100 1400  137       0     0     0>
+            , <&key_physical_attrs 100 100    0  237       0     0     0>
+            , <&key_physical_attrs 100 100  100  237       0     0     0>
+            , <&key_physical_attrs 100 100  200  212       0     0     0>
+            , <&key_physical_attrs 100 100  300  200       0     0     0>
+            , <&key_physical_attrs 100 100  400  212       0     0     0>
+            , <&key_physical_attrs 100 100  500  225       0     0     0>
+            , <&key_physical_attrs 100 100  900  225       0     0     0>
+            , <&key_physical_attrs 100 100 1000  212       0     0     0>
+            , <&key_physical_attrs 100 100 1100  200       0     0     0>
+            , <&key_physical_attrs 100 100 1200  212       0     0     0>
+            , <&key_physical_attrs 100 100 1300  237       0     0     0>
+            , <&key_physical_attrs 100 100 1400  237       0     0     0>
+            , <&key_physical_attrs 100 100    0  337       0     0     0>
+            , <&key_physical_attrs 100 100  100  337       0     0     0>
+            , <&key_physical_attrs 100 100  200  312       0     0     0>
+            , <&key_physical_attrs 100 100  348  314       0     0     0>
+            , <&key_physical_attrs 100 100  348  314    1500   398   789>
+            , <&key_physical_attrs 100 100  348  314    3000   398   789>
+            , <&key_physical_attrs 100 100 1052  314 (-3000)  1102   789>
+            , <&key_physical_attrs 100 100 1052  314 (-1500)  1102   789>
+            , <&key_physical_attrs 100 100 1052  314       0     0     0>
+            , <&key_physical_attrs 100 100 1200  312       0     0     0>
+            , <&key_physical_attrs 100 100 1300  337       0     0     0>
+            , <&key_physical_attrs 100 100 1400  337       0     0     0>
+            ;
+    };
 };
+
 
 &gpio0 {
 	status = "okay";
