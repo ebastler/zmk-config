@@ -7,7 +7,7 @@
 /dts-v1/;
 #include <nordic/nrf52840_qiaa.dtsi>
 #include <dt-bindings/zmk/matrix_transform.h>
-#include <physical_layouts.dtsi
+#include <physical_layouts.dtsi>
 
 / {
 	model = "cornholius, rev_a";
