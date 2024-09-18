@@ -14,3 +14,4 @@
 ---
 include:
   - board: cornholius_a
+    snippet: studio-rpc-usb-uart

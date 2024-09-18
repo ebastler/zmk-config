@@ -32,6 +32,9 @@ CONFIG_PINCTRL=y
 # Windows Battery Reporting Fix
 CONFIG_BT_GATT_ENFORCE_SUBSCRIPTION=n
 
+# Enable ZMK Studio (alpha)
+CONFIG_ZMK_STUDIO=y
+
 # Turn on logging, and set ZMK logging to debug output
 # CONFIG_LOG=y
 # CONFIG_ZMK_USB_LOGGING=y
