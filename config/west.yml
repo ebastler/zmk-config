@@ -9,9 +9,8 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: ebastler
-      remote: zmk-module-cornholius
+    - name: zmk-module-cornholius
+      remote: ebastler
       revision: main
-      import: app/west.yml
   self:
     path: config
